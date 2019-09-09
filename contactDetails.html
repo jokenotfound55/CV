@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>Contact Me</h1>
+  You can contact me via:
+  <ul>
+    <li>Fictional address</li>
+    <li><a href="mailto:eloi.sandt.lol@gmx.de">eloi.sandt.lol@gmx.de</a></li>
+    <li>0152 1234567</li>
+    <li>discord: JokeNotFound#0327</li>
+  </ul>
+  <hr size=3 noshade>
+
+  <!-- form exercise -->
+  <form action="mailto:eloi.sandt@gmx.de" method="post" enctype="text/plain">
+    <!-- Labels mit inputs logisch verknuepfen -->
+    <label for="in_name">Your Name </label>
+    <input type="text" name="YourName" id="in_name"><br>
+    <!--oder-->
+    <label>Your Email
+      <input type="email" name="YourEmail">
+    </label><br>
+    <!-- +++++++++ -->
+    <label>Your Message </label><br>
+    <textarea name="YourMessage" rows="10" cols="30" placeholder="Your message here..."></textarea><br>
+    <input type="submit">
+  </form>
+
+  <br>
+  <a href="index.html"><em>go back</em></a>
+</body>
+
+</html>
